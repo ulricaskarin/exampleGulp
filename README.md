@@ -6,9 +6,10 @@
 
 ### Basics:
 1. ./source/ : where JavaScript and Sass files are written and located (app.js - the entryfile)
-2. ./public/ : all buildfiles gathered here (NEVER TOUCH)!
+2. ./public/ : all buildfiles gathered here (NEVER EVER TOUCH)!
 3. HTML-file index.html located in root for easy access if using gh-pages.
 
 ### Workflow:
-1. In CommandWindow: gulp (starts gulptasks: builds files including startup of express server).
-2. See page locally at: localhost:6001 (port may be changed in gulpfile.js)
+1. Write in CommandWindow: gulp (Starts gulptasks: builds js & sass files | Starts express server).
+2. If Error -> might be due to occupied port locally. If that is the case -> change port for express in gulpfile.js
+2. See page locally at: localhost:6001 (port number may be changed in gulpfile.js)
