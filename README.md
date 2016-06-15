@@ -13,3 +13,8 @@
 1. Start GulpTasks: In terminal: "gulp" (alternative click gulp-icon) - builds js & sass files | Starts express server.
 2. If Error -> might be due to occupied port locally. If that is the case -> change port for express in gulpfile.js
 2. See page locally at: localhost:0000 (port number = port number located in gulpfile.js)
+
+### Read more about...
+[Gulp](http://gulpjs.com/ "Gulp")
+[Sass](http://sass-lang.com/ "Sass")
+[Setup GH-pages](https://pages.github.com/ "GH-pages")
