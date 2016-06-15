@@ -16,7 +16,7 @@ fi
 # Setting Environment Variables
 echo "Setting environment variables..."
 echo "export NODE_ENV=development" >> /home/vagrant/.bashrc
-echo "cd /vagrant/calculator" >> /home/vagrant/.bashrc
+echo "cd /vagrant/" >> /home/vagrant/.bashrc
 
 # Installing nvm
 echo "Installing nvm..."
