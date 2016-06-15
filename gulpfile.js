@@ -12,7 +12,7 @@ var app = express();
 
 gulp.task("express", function() {
     app.use(express.static(__dirname));
-    app.listen(6003, "0.0.0.0"); // <- CHANGE PORT NUMBER TO PREFERRED CHOICE
+    app.listen(6006, "0.0.0.0"); // <- CHANGE PORT NUMBER TO PREFERRED CHOICE
 });
 
 // Lint Task [Checks any JS in our source/javascript/ directory and makes sure there are no errors]
